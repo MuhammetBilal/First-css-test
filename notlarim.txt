@@ -1,0 +1,14 @@
+<ol>	--> ordered list (sıralı liste)
+<ul>	--> 	unoredered list (sırasız liste)
+<br>	--> satir aralarina boşluk koyamaya yarar
+LINK	--> baska bir kod sayfasındaki kodlari projeye işler
+		href="./style.css"
+		rel="stylesheet"
+		type="text/css"
+MARK	--> fosforlu kalem görevi görür
+SELECT  --> seçenek sunar
+<p>	-->  metni paragraflara boler
+SCRIPT 	--> javascript yazılan bolum
+TABLE  	--> tablo yapmaya yarar.  (td) sutun acar, (tr) satir acar
+<u>  	--> (underline) altı cizili yapar
+	   
