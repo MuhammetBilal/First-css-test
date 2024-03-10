@@ -11,4 +11,8 @@ SELECT  --> seçenek sunar
 SCRIPT 	--> javascript yazılan bolum
 TABLE  	--> tablo yapmaya yarar.  (td) sutun acar, (tr) satir acar
 <u>  	--> (underline) altı cizili yapar
+
+refactor: düzenleme
+Bugfix: hata düzeltme
+Feature: yenilik
 	   

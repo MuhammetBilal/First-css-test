@@ -1,4 +1,75 @@
-div{
+button {
+    background-color:  #444444;
+    color: rgb(17, 225, 17);
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    border: none;
+    user-select: none;
 
-    color: red
 }
+button:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+button:active {
+    transform: translateY(1px);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e3e3e3;
+}
+.header-container{
+    justify-content: space-between;
+    background-color: #ffff;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+}
+.logo{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.header-left-side-container{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+.header-desc-contanier{
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+
+}
+
+.header-title{
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.header-content{
+    font-size: 18px;
+    color: rgb(150, 150,150);
+
+}
+.header-menu{
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+}
+.header-menu > a{
+   text-decoration: none;
+   font-size: 18px;
+   color: #444444;
+}
+.header-menu > a:hover{
+   color: red;
+ }
